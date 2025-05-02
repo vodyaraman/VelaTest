@@ -1,0 +1,37 @@
+/* ================================
+   ГЛАВНЫЙ БЛОК HERO
+   ================================ */
+.hero {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: linear-gradient(to right bottom, #672870 30%, #4FE0FF 100%);
+   padding: 5vh calc(var(--gutter) * 3);
+   height: 60vh;
+   color: var(--color-accent-text);
+   font-family: var(--font-content);
+   gap: 2rem;
+}
+
+.hero__title, .hero__text {
+   max-width: min(500px, 35vw);
+   z-index: 2;
+}
+
+.hero__button {
+   font-family: var(--primary-main);
+   font-weight: bold;
+   background-color: var(--color-accent-text);
+   color: #672870;
+   width: fit-content;
+   padding: 1rem 2rem;
+}
+
+.hero__image {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   height: 100%;
+   object-fit: cover;
+}

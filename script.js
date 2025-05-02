@@ -1,6 +1,4 @@
-console.log('Шаблон готов!');
+import { burgerButtonClickHandler, burgerButtonClickHandlerMobile } from './utils/utils.js';
 
-// пример модуля
-import { greet } from './utils/utils.js';
-
-greet('мир');
+burgerButtonClickHandler();
+burgerButtonClickHandlerMobile();

@@ -1,0 +1,33 @@
+@media (max-width: 930px) {
+
+    /* ================================  
+   ГЛАВНЫЙ БЛОК HERO - МОБИЛЬНЫЙ
+   ================================ */
+
+    .hero {
+        padding: 5vh 1rem;
+        height: 80vh;
+        overflow: hidden;
+        justify-content: flex-start;
+    }
+
+    .hero__container {
+        
+    }
+
+    .hero__content {}
+
+    .hero__title, .hero__text  {
+        max-width: unset;
+    }
+
+    .hero__button {
+        padding: 2rem 4rem;
+    }
+
+    .hero__image {
+        max-width: 300px;
+        height: auto;
+        transform: translateX(50%);
+    }
+}
